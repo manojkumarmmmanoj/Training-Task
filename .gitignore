@@ -1,0 +1,25 @@
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Checkpoints & model weights
+results/
+checkpoint-*/
+runs/
+*.bin
+*.pt
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Ignore large raw dataset according to assignment instructions
+# "Do not push the training data or the base model"
+data/train.jsonl
+data/dev.jsonl
+data/test_inputs.jsonl
+data/train_cleaned.jsonl
+candidate_pack/data/
+

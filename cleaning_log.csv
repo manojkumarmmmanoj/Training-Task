@@ -1,0 +1,199 @@
+id,action,reason
+tr-00018,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00020,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 02/09/2026 to ISO 2026-09-02
+tr-00023,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00034,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00045,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00049,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00058,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 26/08/2026 to ISO 2026-08-26
+tr-00059,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00060,drop,truncated assistant JSON output / incomplete label
+tr-00071,fix,normalized txn_id from NP-9718716109 to NP9718716109
+tr-00072,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00077,fix,migrated legacy key 'prio' (medium) to 'priority' (P2); converted txn_date from 29/07/2026 to ISO 2026-07-29
+tr-00095,drop,truncated assistant JSON output / incomplete label
+tr-00114,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00120,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00123,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 21/07/2026 to ISO 2026-07-21
+tr-00125,drop,truncated assistant JSON output / incomplete label
+tr-00129,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00144,fix,corrected rupee-to-paise scale error from 167 to 16700
+tr-00146,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00147,fix,normalized txn_id from np9891267518 to NP9891267518
+tr-00151,fix,normalized txn_id from NP-2339259875 to NP2339259875
+tr-00153,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 04/09/2026 to ISO 2026-09-04
+tr-00154,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00160,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 08/08/2026 to ISO 2026-08-08
+tr-00164,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00167,fix,corrected rupee-to-paise scale error from 267 to 26700
+tr-00172,drop,truncated assistant JSON output / incomplete label
+tr-00178,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00184,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00187,fix,corrected rupee-to-paise scale error from 220000 to 22000000
+tr-00192,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00199,fix,corrected rupee-to-paise scale error from 674 to 67400
+tr-00212,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00219,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00220,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00222,fix,corrected rupee-to-paise scale error from 594 to 59450
+tr-00223,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00225,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00249,fix,migrated legacy key 'prio' (medium) to 'priority' (P2); converted txn_date from 23/08/2026 to ISO 2026-08-23
+tr-00258,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00263,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 11/07/2026 to ISO 2026-07-11
+tr-00267,drop,truncated assistant JSON output / incomplete label
+tr-00294,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00306,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00309,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00312,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00318,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00320,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00328,fix,corrected rupee-to-paise scale error from 667 to 66750
+tr-00346,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00347,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 07/08/2026 to ISO 2026-08-07
+tr-00355,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00357,drop,truncated assistant JSON output / incomplete label
+tr-00365,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00370,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 10/09/2026 to ISO 2026-09-10
+tr-00380,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00385,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00391,fix,normalized txn_id from NP 9255627510 to NP9255627510
+tr-00407,fix,corrected rupee-to-paise scale error from 359 to 35900
+tr-00413,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00420,fix,normalized txn_id from np 81633 47892 to NP8163347892
+tr-00424,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00427,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00452,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00457,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00460,fix,normalized txn_id from NP 6949410784 to NP6949410784
+tr-00461,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00470,fix,normalized txn_id from np 11245 46709 to NP1124546709
+tr-00475,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00478,drop,truncated assistant JSON output / incomplete label
+tr-00485,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00497,drop,truncated assistant JSON output / incomplete label
+tr-00503,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00505,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00508,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00516,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00523,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00533,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00555,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00556,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 13/07/2026 to ISO 2026-07-13
+tr-00558,drop,truncated assistant JSON output / incomplete label
+tr-00560,fix,corrected rupee-to-paise scale error from 1100 to 110000
+tr-00567,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00570,fix,normalized txn_id from np 87267 97611 to NP8726797611
+tr-00577,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 06/08/2026 to ISO 2026-08-06
+tr-00589,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00595,fix,normalized txn_id from np3247474643 to NP3247474643
+tr-00602,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 29/06/2026 to ISO 2026-06-29
+tr-00605,drop,truncated assistant JSON output / incomplete label
+tr-00606,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00610,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00622,fix,corrected rupee-to-paise scale error from 3702 to 370200
+tr-00628,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 13/06/2026 to ISO 2026-06-13
+tr-00638,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00648,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00649,fix,normalized txn_id from NP-8919677483 to NP8919677483
+tr-00656,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 20/06/2026 to ISO 2026-06-20
+tr-00670,fix,migrated legacy key 'prio' (medium) to 'priority' (P2); converted txn_date from 20/08/2026 to ISO 2026-08-20
+tr-00674,drop,truncated assistant JSON output / incomplete label
+tr-00677,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 14/08/2026 to ISO 2026-08-14
+tr-00685,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00688,fix,corrected rupee-to-paise scale error from 209 to 20900
+tr-00689,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00691,fix,corrected rupee-to-paise scale error from 678 to 67800
+tr-00704,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 03/06/2026 to ISO 2026-06-03
+tr-00706,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00707,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00717,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00735,drop,truncated assistant JSON output / incomplete label
+tr-00744,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-00745,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00746,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00757,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00765,drop,truncated assistant JSON output / incomplete label
+tr-00771,fix,normalized txn_id from np9038808761 to NP9038808761
+tr-00778,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00782,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00790,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00791,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 31/08/2026 to ISO 2026-08-31
+tr-00794,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-00795,fix,corrected rupee-to-paise scale error from 34300 to 3430000
+tr-00802,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00809,drop,truncated assistant JSON output / incomplete label
+tr-00820,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 31/05/2026 to ISO 2026-05-31
+tr-00824,drop,truncated assistant JSON output / incomplete label
+tr-00838,fix,normalized txn_id from NP 6186175115 to NP6186175115
+tr-00839,fix,migrated legacy key 'prio' (medium) to 'priority' (P2); converted txn_date from 17/09/2026 to ISO 2026-09-17
+tr-00846,drop,truncated assistant JSON output / incomplete label
+tr-00852,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00879,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00888,fix,normalized txn_id from np7786684387 to NP7786684387
+tr-00890,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-00899,fix,normalized txn_id from NP-1325500121 to NP1325500121
+tr-00908,fix,normalized txn_id from np 45856 96868 to NP4585696868
+tr-00920,fix,corrected rupee-to-paise scale error from 853 to 85300
+tr-00922,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-00932,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-00933,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00958,drop,truncated assistant JSON output / incomplete label
+tr-00960,drop,truncated assistant JSON output / incomplete label
+tr-00967,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-00975,drop,truncated assistant JSON output / incomplete label
+tr-00978,drop,truncated assistant JSON output / incomplete label
+tr-00979,drop,truncated assistant JSON output / incomplete label
+tr-00980,drop,truncated assistant JSON output / incomplete label
+tr-00985,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 02/09/2026 to ISO 2026-09-02
+tr-00987,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01006,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01012,fix,normalized txn_id from np 78549 05014 to NP7854905014
+tr-01017,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01019,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01023,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01028,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01032,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-01046,fix,migrated legacy key 'prio' (medium) to 'priority' (P2); converted txn_date from 25/06/2026 to ISO 2026-06-25
+tr-01048,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-01070,drop,truncated assistant JSON output / incomplete label
+tr-01083,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-01086,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01087,drop,truncated assistant JSON output / incomplete label
+tr-01089,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01109,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-01115,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-01131,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-01133,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 25/07/2026 to ISO 2026-07-25
+tr-01136,fix,normalized txn_id from NP 5804974985 to NP5804974985
+tr-01143,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 12/09/2026 to ISO 2026-09-12
+tr-01146,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-01151,fix,migrated legacy key 'prio' (high) to 'priority' (P1)
+tr-01158,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 30/06/2026 to ISO 2026-06-30
+tr-01166,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-01178,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 09/08/2026 to ISO 2026-08-09
+tr-01188,fix,normalized txn_id from np0530288495 to NP0530288495
+tr-01199,drop,truncated assistant JSON output / incomplete label
+tr-01202,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01222,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-01238,fix,normalized txn_id from NP-7739480420 to NP7739480420
+tr-01274,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 23/07/2026 to ISO 2026-07-23
+tr-01286,fix,migrated legacy key 'prio' (medium) to 'priority' (P2)
+tr-01301,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01304,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-01305,fix,fixed priority from P3 to P2 (qualifies for P2 under schema rules: amount>=5k or account_access)
+tr-01311,fix,corrected rupee-to-paise scale error from 497 to 49799
+tr-01314,drop,synthetic test placeholder or gibberish input with hallucinated label
+tr-01319,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01326,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01331,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01343,fix,migrated legacy key 'prio' (low) to 'priority' (P3); converted txn_date from 05/07/2026 to ISO 2026-07-05
+tr-01359,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01363,fix,normalized txn_id from np 25586 43472 to NP2558643472
+tr-01366,fix,migrated legacy key 'prio' (high) to 'priority' (P1); converted txn_date from 10/09/2026 to ISO 2026-09-10
+tr-01370,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01386,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01403,fix,fixed priority from P3 to P1 (qualifies for P1 under schema rules: fraud/amount>=50k/legal threat)
+tr-01407,fix,"fixed priority from P1 to P3 (low severity, amount < 5k, not fraud, no legal threat)"
+tr-01413,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
+tr-01441,fix,migrated legacy key 'prio' (low) to 'priority' (P3)
